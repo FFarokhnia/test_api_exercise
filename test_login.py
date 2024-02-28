@@ -62,4 +62,5 @@ class TestLogin():
     # 4 | assertText | id=flash | You logged into a secure area!\n×
     assert self.driver.find_element(By.ID, "flash").text == "You logged into a secure area!\\\\n×"
     self.eyes.close()
+    #comment after git initialized
   
